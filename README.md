@@ -10,3 +10,4 @@ feel free to use it and implement your own functionalities
 - **Search Bar**
 - **Infinite Scroll**
 - **Lazy Loading**
+- **Very Responsive**
