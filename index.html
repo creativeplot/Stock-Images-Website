@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="creative">
+    <meta name="description" content="this is a image gallery page with lazy loading and infinite scroll">
+    <title>Stock Images</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div id="layer">
+    </div>
+    <header class="head">
+        <div class="search-container">
+            <div id="alert">
+                <!-- <p>No Search Term!</p> -->
+            </div>
+            <form action="/JavaScript/Java-Projects/Promise-Image-Gallery-with-Lazy-Loading/search.html" class="search-form">
+
+                <div class="search-flex">
+                    <input type="text" name="search-term" id="search-term" placeholder="Search Images" class="search-bar">
+                    <button class="btn" type="submit">
+                        <i class="ri-search-eye-line"></i>
+                      </button>
+                </div>
+                
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="link-n-phrases">
+            <p class="pexel-link">
+                <a href="https://www.pexels.com" target="_blank" class="pexels-link">Photos provided by Pexels</a>
+            </p>
+            <p class="stock-images-phrase">
+                Stock Images
+            </p>
+        </div>
+
+        <div class="images-container"></div>
+        <div class="spinner-container">
+            <div id="spin"></div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

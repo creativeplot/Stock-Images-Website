@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="creative">
+    <meta name="description" content="search for images page">
+    <title>Stock Images Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="layer">
+    </div>
+    <header class="head">
+        <div class="search-container">
+            <div id="alert">
+                <!-- <p>No Search Term!</p> -->
+            </div>
+            <form action="search.html" class="search-form">
+
+                <div class="search-flex">
+                    <input type="text" name="search-term" id="search-term" placeholder="Search Images" class="search-bar">
+                    <button class="btn" type="submit">
+                        <i class="ri-search-eye-line"></i>
+                      </button>
+                </div>
+
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="link-n-phrases">
+            <p class="pexel-link">
+                <a href="https://www.pexels.com" target="_blank" class="pexels-link">Photos provided by Pexels</a>
+            </p>
+            <div class="black-links-container">
+                <a href="index.html" id="home">Home</a>
+                <p class="stock-images-phrase">
+                    Stock Images
+                </p>
+            </div>
+        </div>
+
+        <div class="images-container">
+        </div>
+        <div class="spinner-container">
+            <div id="spin"></div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
