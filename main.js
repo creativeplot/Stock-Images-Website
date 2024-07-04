@@ -360,7 +360,8 @@ class SearchDisplay extends MainDisplay {
             // if there are results i want to display them using forEach in the photos array
             photos.forEach((photo) => {
             const src = photo.src.large2x
-            this.photoElements(src)
+            const photographer = photo.photographer
+            this.photoElements(src, photographer)
         })
         };
 
