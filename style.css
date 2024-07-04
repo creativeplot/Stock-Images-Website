@@ -379,7 +379,6 @@ footer{
 
     .images-container{
         margin-inline: 5%;
-        grid-template-columns: repeat(3, 2fr);
     }
     
     .images-container img{
