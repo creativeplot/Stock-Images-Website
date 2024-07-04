@@ -358,6 +358,12 @@ footer{
     }
 }
 
+@media screen and (min-width: 1000px) {
+    .images-container{
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
+
 @media screen and (min-width: 1465px){
     .search-form {
         width: 35%;
